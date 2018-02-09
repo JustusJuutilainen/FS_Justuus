@@ -9,18 +9,20 @@ namespace FS_Justuus
         //Properties
         public int villainId { get; set; }
         public string villainName { get; set; }
-        public int Hp { get; set; }
-        public int Lvl { get; set; }
+        public int villainHp { get; set; }
+        public int villainLvl { get; set; }
         
                
         List<Villain> villainGroup = new List<Villain>()
         {
-            new Villain { villainId=1, villainName="Drunkard", Hp=3, Lvl=1},
-            new Villain { villainId=2, villainName="Maniac", Hp=4, Lvl=1},
-            new Villain { villainId=3, villainName="Retired Thief", Hp=5, Lvl=2},
-            new Villain { villainId=4, villainName="Flexing Barbarian", Hp=7, Lvl =3},
-            new Villain { villainId=5, villainName="Twisted Druid", Hp=9, Lvl =4},
+            new Villain { villainId=1, villainName="Drunkard", villainHp=3, villainLvl=1},
+            new Villain { villainId=2, villainName="Maniac", villainHp=4, villainLvl=1},
+            new Villain { villainId=3, villainName="Retired Thief", villainHp=5, villainLvl=2},
+            new Villain { villainId=4, villainName="Flexing Barbarian", villainHp=7, villainLvl =3},
+            new Villain { villainId=5, villainName="Twisted Druid", villainHp=9, villainLvl =4},
             
         };
+                
+        
     }
 }
